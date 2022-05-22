@@ -1,4 +1,4 @@
-SUBJECT: Iterative methods for solving linear algebraic equations
+Iterative methods for solving linear algebraic equations
 
 Introduction
 Gauss elimination was used to find the solution to the algebraic system of equations manually.
@@ -6,26 +6,7 @@ Once the solutions were found by hand, iterative methods were used in MATLAB to 
 solutions. The iterative methods used was Gradient, Gauss-Seidel, and Jacobi methods. A
 contour map and residual surface map was plotted for the first two set of equations. Five initial
 guesses were used to show convergence to the same solution, x.
-Methods
-Part 1:
-Gauss elimination was used to solve problems 1-3 by hand:
 
-The matrices are combined as such: [A b]. Then, the matrices are reduced to row echelon form
-by row operations.
-
-Row operations include row-switching, row multiplication, or row addition.
-Part 2:
-The contour map of the residual surface is plotted for equations one and two. This was done by
-setting the x and y values to a range of -10 to 50. Then for loops were created with the equations
-in residual form. Once in residual form, equation (4) is used to find the contour map of the
-residual error surface
-Part 3:
-The surf function is used to find the residual surface in 3D, using the parameters as explained in
-part 2.
-Part 4:
-The Gradient method was used to calculate and plot a contour map for equations one and two.
-An initial guess of [10;10] was used for x. The code for the gradient method was obtained from
-the TA.
 Results
 Problem 1:
 The solutions for the equations 1-3 using Gauss elimination is as follows:
@@ -44,3 +25,20 @@ Discussion
 Gauss elimination can be used to find solutions to less complex equations. The methods used in
 the homework will come in handy for more complex equations or solutions. Each method has
 their own benefit.
+
+Iterative methods for solving linear algebraic equations 2
+Introduction
+Part one uses different iterative solves to solve for three set of equations. Iterative methods are
+used when Gauss elimination can’t be used or less efficient. The iterative methods used were
+Gradient, Gauss-Seidel, and Jacobi method. Part two involves visualizing linesearch to display a
+2D section of the curve.
+
+Conclusion
+Different iterative methods were used to solve for the equations. The same solution resulted for
+each equation. Linesearch used to plot a 2D plot of the contour plot. This helps to see the
+solution easily.
+
+Discussion
+Iterative methods were studied more in this assignment because it is a useful tool when solving
+for system of equations. Real world set of equations will be more extensive and this is where
+iterative methods come into play.
