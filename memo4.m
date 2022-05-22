@@ -1,3 +1,5 @@
+clc
+clear all
 % % Problem 1 and 4
 % function xUpdate = GradientMethod(x,b,A)
 % tol = 1e-6;
